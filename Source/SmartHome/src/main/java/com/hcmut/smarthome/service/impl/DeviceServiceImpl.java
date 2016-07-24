@@ -39,4 +39,9 @@ public class DeviceServiceImpl implements IDeviceService {
 		LOGGER.error("Toggle LED");
 		ledPin.toggle();
 	}
+
+	@Override
+	public boolean isLightOn() {
+		return ledPin.isLow();
+	}
 }

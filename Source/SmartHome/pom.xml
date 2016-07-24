@@ -15,6 +15,16 @@
 		<!-- Version of primesfaces -->
 		<primesfaces.version>6.0</primesfaces.version>
 	</properties>
+
+	<repositories>
+		<repository>
+			<id>prime-repo</id>
+			<name>PrimeFaces Maven Repository</name>
+			<url>http://repository.primefaces.org</url>
+			<layout>default</layout>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<!-- Spring -->
 		<dependency>
@@ -60,6 +70,13 @@
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
 			<version>${primesfaces.version}</version>
+		</dependency>
+
+		<!-- Primefaces theme -->
+		<dependency>
+			<groupId>org.primefaces.themes</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>1.0.10</version>
 		</dependency>
 
 		<!-- Pi4J -->
