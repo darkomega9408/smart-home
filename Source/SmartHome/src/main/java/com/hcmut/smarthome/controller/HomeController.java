@@ -45,7 +45,7 @@ public class HomeController {
 	public void toggleLED() {
 		LOGGER.debug("Toggle LED");
 		isLightOn = !isLightOn;
-		deviceService.toggleLED();
+		deviceService.toggleLightBulb();
 	}
 
 	public Date getTurnOnBulbFromTime() {

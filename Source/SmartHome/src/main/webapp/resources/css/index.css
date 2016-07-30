@@ -70,3 +70,7 @@
 .ui-hidden-container {
 	background-color: transparent !important;
 }
+
+.ui-widget-content{
+	border: 0px;
+}
